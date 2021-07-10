@@ -22,7 +22,6 @@ public class Main {
         try {
             while((line = bufferedReader.readLine()) != null) {
                 jSONString += line;
-                System.out.println(line);
             }
         }
         catch (Exception e){

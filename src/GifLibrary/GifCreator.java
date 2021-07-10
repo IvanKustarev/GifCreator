@@ -1,21 +1,11 @@
 package GifLibrary;
 
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
+import java.util.Set;
 
 public class GifCreator {
     public static void createGif(String jSONString, int sizeX, int sizeY){
 
-
-
-        JSONObject jsonObject = null;
-        try {
-            jsonObject = (JSONObject) (new JSONParser()).parse(jSONString);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-
+        JSONWork jsonWork = new JSONWork();
+        Set <Image> images = jsonWork.toArray(jSONString);
     }
 }
