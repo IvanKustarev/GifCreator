@@ -1,0 +1,33 @@
+{
+  "y1": {
+
+    "x1": {
+
+      "z1": "terrains/gif1.gif","z2": "objects/png1.png"
+
+    },
+
+    "x2": {
+
+      "z1": "terrains/gif3.gif"
+
+    }
+
+  },
+
+  "y2": {
+
+    "x1": {
+
+      "z1": "terrains/gif5.gif","z2": "objects/png4.png"
+
+    },
+
+    "x2": {
+
+      "z1": "terrains/gif9.gif","z2": "objects/png1.png"
+
+    }
+
+  }
+}
