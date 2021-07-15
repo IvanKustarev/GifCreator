@@ -1,10 +1,10 @@
-import GifLibrary.GifCreator;
+import GifLibrary.ImageWork.ImageCreator;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 
-public class Main {
+public class TestStarter {
     public static void main(String [] args){
         File file = new File("D:\\programs\\Java\\projects\\GifCreator\\src\\Test.json");
         FileReader fileReader = null;
@@ -28,6 +28,7 @@ public class Main {
 
         }
 
-        GifCreator.createGif(jSONString, 1, 1);
+        ImageCreator imageCreator = new ImageCreator();
+        imageCreator.combineImages(jSONString, 30, 30);
     }
 }

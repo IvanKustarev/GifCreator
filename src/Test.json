@@ -3,13 +3,13 @@
 
     "x1": {
 
-      "z1": "terrains/gif1.gif","z2": "objects/png1.png"
+      "z1": "Uzga.gif","z2": "hhh.png"
 
     },
 
     "x2": {
 
-      "z1": "terrains/gif3.gif"
+      "z1": "mainPicture.png"
 
     }
 
@@ -19,13 +19,35 @@
 
     "x1": {
 
-      "z1": "terrains/gif5.gif","z2": "objects/png4.png"
+      "z1": "mainPicture.png","z2": "Uzga.gif"
 
     },
 
     "x2": {
 
-      "z1": "terrains/gif9.gif","z2": "objects/png1.png"
+      "z1": "mainPicture.png","z2": "mainPicture.png"
+
+    }
+
+  },
+
+  "y3": {
+
+    "x1": {
+
+      "z1": "mainPicture.png","z2": "mainPicture.png"
+
+    },
+
+    "x2": {
+
+      "z1": "mainPicture.png","z2": "mainPicture.png"
+
+    },
+
+    "x3": {
+
+      "z1": "mainPicture.png","z2": "mainPicture.png"
 
     }
 
